@@ -3,15 +3,75 @@
 
 <head>
   <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles.css">
-  <title>Vanilla JavaScript App</title>
+  <title>Responsive Deisgn</title>
 </head>
 
 <body>
-  <main>
-    <h1>Vanilla JavaScript App</h1>
-  </main>
+  <div id="title">
+    <h1>Responsive Design</h1>
+
+  </div>
+  <br>
+  <div class="content">
+	<div>In this project we a redesign poorly designed website</div>
+	<br>	
+	<div class="parts" id="body1">
+			
+			<h1 class = "text-center">Part 1: Identifying Usability Problems</h1>
+			<h3>Brown CS Department Research Page</h3>
+			<a class = "text-center" href="https://cs.brown.edu/research/">Link to this website.</a>
+			<img src="images/brownpage.png">
+			<br>
+			<h3>Problems</h3>
+			<ul>
+				<li><b>Visibility of system status:</b> the font color of the current internal path is vague.</li>
+				<li><b>User control and freedom:</b> clicking a link to any research lab will redirect to its home page, but not open in a new tab, makes it hard to go back to the last page, lead to user anxiety due to the lack of control.</li>
+				<li><b>Recognition rather than recall:</b> If you click the link of Undergraduate Research, you will get to a page located at "Home » Degrees » Undergrad » Research", which can be very confusing because it has a different path from "Home » Research".</li>
+				<li><b>Help and documentation:</b> The relationship of the two parallel banners of menus is confusing. The relationship of the banners and body content is also unclear. </li>
+				<li><b>Visibility of system status:</b> The font color of the current internal path is vague.</li>
+			</ul>
+			<h3>Accessibility</h3>
+			<p>There are 1 errors detected: 1 missing form lable. There are 15 contrast errors: all have very low contrast. There are 13 alerts: 7 of them are redundant links, and 4 of them are redundant title text.</p>
+		</div>
+		<div class="parts" id="body2">
+			<h1 class = "text-center">Part 2: Visual Redesign</h1>
+			<h3>Low-fidelity Wireframing</h3>
+			<div class="pics">
+			<img class="small_img" src="images/lowfiDesktop1.jpg" title="lowfi-desktop1">
+			<img src="images/lowfiDesktop2.jpeg" title="lowfi-desktop2">
+			<img src="images/lowfiPad.jpeg" title="lowfi-ipad">
+			<img src="images/lowfiPhone.jpeg" title="lowfi-iphone" >
+
+			</div>
+
+			<h3>Visual Design Style Guide</h3>
+			<div class="pics">
+				<img src="images/style_guide.png" title="UIguide">
+			</div>
+
+			<p>Now the website is responsive in three modes, and the navgiation bar makes more sense.</p>
+			<h3>High-Fidelity Prototyping</h3>
+			<div class="pics">
+			<img src="images/MacBook Pro 14 - 1.png" title="macbook1">
+			<img src="images/MacBook Pro 14 - 2.png" title="macbook2">
+			<img src="images/iPad Pro 12.9 - 1.png" title="ipad">
+			<img src="images/iPhone14ProMax.png" title="iphone">
+			</div>
+			
+		</div>
+		<div class="parts" id="body3">
+			<h1 class = "text-center">Part 3: Responsive Redesign</h1>
+			<h3>Implementaion</h3>
+			<p>Implementation with HTML, CSS, JavaScript, Bootstrap</p>
+			<a href=" https://flyingmonkey777.github.io/">Link to my redesigned webiste</a>
+			<p>Feel free to scroll and click on the bars and buttons!</p>
+
+		</div>
+</div>
 </body>
 
 </html>
+

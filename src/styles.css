@@ -1,13 +1,26 @@
 /* Put your style information here! */
+
+html, body {
+  height: 100%;
+  width: 100%;
+  background: url(https://www.toptal.com/designers/subtlepatterns/uploads/paisley.png);
+  
+}
+
 #title {
-  padding-bottom: 30px;
-  padding-top: 20px;
-  background: linear-gradient(rgb(230, 100, 101), rgb(145, 152, 229));
+  /* padding-bottom: 30px;
+  padding-top: 20px; */
+  /* background: linear-gradient(rgb(230, 100, 101), rgb(145, 152, 229)); */
 }
 #title h1 {
-  color: white;
   text-align: center;
-  font-size: 30px;
+    margin-right: 0px;
+    margin-bottom: 40px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 50pt;
+    /* color: lightseagreen; */
+    color: black;
+    font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
 .h3{
@@ -22,7 +35,7 @@
 .parts{
   display: flex;
   flex-direction: column;
-  border: 1px;
+  border: 2px;
   border-style:dashed;
   border-color: black;
   border-radius: 15px;
@@ -31,6 +44,9 @@
   margin-bottom: 20px;
   text-align:left;
   padding: 20px;
+  background-color: white;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  
 
   
 

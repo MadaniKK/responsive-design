@@ -3,10 +3,18 @@
 html, body {
   height: 100%;
   width: 100%;
-  background: url(https://www.toptal.com/designers/subtlepatterns/uploads/paisley.png);
+  background: url(https://www.toptal.com/designers/subtlepatterns/uploads/leaves.png);
   
 }
 
+.home{
+  margin-left: 5px;
+  margin-top: 5px;
+  background-color: white;
+  border-radius: 5px;
+  border-color: rgb(13, 128, 13);
+
+}
 #title {
   /* padding-bottom: 30px;
   padding-top: 20px; */
@@ -20,7 +28,7 @@ html, body {
     font-size: 50pt;
     /* color: lightseagreen; */
     color: black;
-    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .h3{
@@ -45,7 +53,7 @@ html, body {
   text-align:left;
   padding: 20px;
   background-color: white;
-  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-family:'Times New Roman', Times, serif;
   font-size: larger;
   
 

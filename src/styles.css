@@ -44,8 +44,8 @@ html, body {
   display: flex;
   flex-direction: column;
   border: 2px;
-  border-style:dashed;
-  border-color: black;
+  border-style:solid;
+  border-color: goldenrod;
   border-radius: 15px;
   width: 90%;
   margin: auto;
